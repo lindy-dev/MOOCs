@@ -1,0 +1,32 @@
+/* ID selectors */
+#title {
+  color: green;
+  background-color: black;
+  font-size: 50px;
+}
+#footer {
+  color: red;
+  background-color: grey;
+}
+/* Class selectors */
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.text {
+  text-transform: uppercase;
+  background: grey;
+}
+/* Inheritance */
+/* Child element inherits styles from the parents, unless they have their own styles */
+
+body {
+  color: red;
+}
+
+/* Last rule and specificity * Universal selector */
